@@ -28,10 +28,10 @@ public class Test {
         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(smallSqPeg);
         SquarePegAdapter largeSqPegAdapter = new SquarePegAdapter(largeSqPeg);
         if (hole.fits(smallSqPegAdapter)) {
-            System.out.println("Square peg width" + widthSmall + " fits round hole radius " + radHole);
+            System.out.println("Square peg with width " + widthSmall + " fits round hole with radius " + radHole);
         }
         if (!hole.fits(largeSqPegAdapter)) {
-            System.out.println("Square peg width" + widthLarge+ " does not fit round hole radius " + radHole);
+            System.out.println("Square peg with width " + widthLarge+ " does not fit round hole with radius " + radHole);
         }
     }
 }
